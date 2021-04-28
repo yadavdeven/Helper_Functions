@@ -101,7 +101,7 @@ def load_resize_image(filename,img_size=224,rescale = True):
 
 ## Function for visualizing random images from our training dataset:
 
-def visualize_training_images(target_dir,class_names):
+def visualize_training_images(train_dir,class_names):
   
   target_class = random.choice(class_names)
   target_dir = train_dir + target_class
